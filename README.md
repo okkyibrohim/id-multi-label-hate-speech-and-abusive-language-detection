@@ -17,7 +17,7 @@ Here we provide our dataset for multi-label hate speech and abusive language det
 
 For each label, `1` means `yes` (tweets including that label), `0` mean `no` (tweets are not included in that label). 
 
-Due to the Twitter's Terms of Service, we do not provide the tweet ID. All username and URL in this dataset are changed into USER and URL. 
+Due to Twitter's Terms of Service (now X), we do not provide the hydrated tweet (unfortunately, we forget to store the tweet ID when we collect the data). All usernames and URLs in this dataset are changed into USER and URL. 
 
 For text normalization in our experiment, we built typo and slang words dictionaries named **new_kamusalay.csv**, that contain two columns (first columns are the typo and slang words, and the second one is the formal words). Here the examples of mapping:
 * *beud --> banget*
